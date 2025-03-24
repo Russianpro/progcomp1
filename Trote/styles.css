@@ -85,3 +85,12 @@ table{
 .vermelha{
     background-color: red;
 }
+.campos{
+    margin-bottom: 10px;
+    border:  1px solid rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 11px;
+    background-color: #e6e5e5;
+    box-shadow: 1px 1.5px 1px;
+    
+}

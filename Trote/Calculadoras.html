@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Trote Solidário - 2025</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header> <!-- cabeçalho do corpo da página-->
-                Trote Solidário - 2025
-        </header>
-        <nav>
-            <div id="links">
-                <a href="index.html"> Home </a>
-                <a href="Introducao.html"> Introdução </a>
-                <a href="Objetivo.html"> Objetivo </a>
-                <a href="Formato.html"> Formato </a>
-                <a href="Gincana.html"> Gincana </a>
-                <a href="Integracao.html"> Integração </a>
-                <a href="Observacoes.html"> Observações </a>
-                <a href="Calculadoras.html"> Calculadoras</a>
-            </div>
-            <img src="img/trote_solidario_2025_edited-768x753.jpg" alt="Trote Solídário 2025" />
-
-        </nav>
-        <div class="container"> 
-            <h2> Trote Solidário - Construa vitórias fora de campo e jogue pela solidariedade</h2>
-            <p> CENTRO UNIVERSITÁRIO MUNICIPAL DE FRANCA
-                <p>Uni-facef</p>
-                <p>Regulamento Trote Solidário - 2025 </p>
-            </p> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trote Solidário - 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header> <!-- cabeçalho do corpo da página-->
+            Trote Solidário - 2025
+    </header>
+    <nav>
+        <div id="links">
+            <a href="index.html"> Home </a>
+            <a href="Introducao.html"> Introdução </a>
+            <a href="Objetivo.html"> Objetivo </a>
+            <a href="Formato.html"> Formato </a>
+            <a href="Gincana.html"> Gincana </a>
+            <a href="Integracao.html"> Integração </a>
+            <a href="Observacoes.html"> Observações </a>
+            <a href="Calculadoras.html"> Calculadoras</a>
         </div>
-    
-    </body>
+        <img src="img/trote_solidario_2025_edited-768x753.jpg" alt="Trote Solídário 2025" />
+
+    </nav>
+    <div class="container"> 
+        <h2> Calculadora de Pontuação </h2>
+        <form> <!-- Formulário para entrada dos dados -->
+            <div class="campos">
+                <label for=""> Ação Social</label>
+                <input type="number" id="acaoSocial"> 
+            <
+            /div>
+            <div class="campos">
+                <label for="">Homenagem</label>
+                <input type="number" id="homenagem">
+            </div>
+            <div class="campos">
+                <button type="button" onclick="calcular()">Calcular</button>
+                <label id="resposta"></label>
+            </div>
+        </form> 
+        
+    </div>
+
+</body>
 </html>
