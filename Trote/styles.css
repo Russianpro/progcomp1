@@ -57,34 +57,10 @@ h2{
 text-align: center;
 }
 
-table tr td{
-    padding: 20px;
-    
-}
-table{
-    margin: 0 auto;
+
 
 }
 
-.laranja{
-    background-color: orange;
-}
-.azul{
-    background-color: blue;
-}
-.preta{
-    background-color: black;
-    color: white;
-}
-.roxo{
-    background-color: purple;
-}
-.verde{
-    background-color: green;
-}
-.vermelha{
-    background-color: red;
-}
 .campos{
     margin-bottom: 10px;
     border:  1px solid rgb(211, 211, 211);
@@ -97,4 +73,49 @@ equipe{
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: #344f8a;
+}
+.Laranja{
+    background-color: rgb(231, 126, 14);
+    color: white;
+    text-align: center;
+}
+.Preto{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Roxa{
+    background-color: rgb(161, 14, 161);
+    color: white;
+    text-align: center;
+}
+.Verde{
+    background-color: rgb(10, 170, 10);
+    color: white;
+    text-align: center;
+}
+.Vermelha{
+    background-color: red;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.tabela{
+    border-radius: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    
+}
+table th, tr, td{
+    border: solid 1px black;
+}
+table th{
+    background-color: #344f8a;
+    color: #e6e5e5;
+    text-align: center;
+}
+.centralizado{
+    text-align: center;
 }
