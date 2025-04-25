@@ -20,9 +20,12 @@ function calcular(){
     soma += (15 * kitSuplemento);
 
     let pontosKitAlimentacao = 0
+
+    let pontosDoacaoSangue = Number(document.getElementById("pontosDoacaoSangue").value);
+    soma += (20 * pontosDoacaoSangue)
    
 
-        if(equipe == "Laranja"){
+        if (equipe == "laranja") {
             
        
         if(kitAlimentacao >= 97 && kitSuplemento >= 49){
@@ -41,6 +44,12 @@ function calcular(){
             else{
             pontosKitAlimentacao = 0;
         }
+        if(pontosDoacaoSangue >= 49){
+                pontosDoacaoSangue = 2500 + ((pontosDoacaoSangue - 49) * 20)
+        }
+            else{
+                pontosDoacaoSangue * 20
+            }
         }
         else if(equipe == "Preto"){
           
@@ -60,6 +69,12 @@ function calcular(){
         }
             else{
             pontosKitAlimentacao = 0;
+        }
+        if(pontosDoacaoSangue >= 52){
+            pontosDoacaoSangue = 2500 + ((pontosDoacaoSangue - 52) * 20)
+    }
+        else{
+            pontosDoacaoSangue * 20
         }
         }        
         else if(equipe == "Roxa"){
@@ -81,6 +96,12 @@ function calcular(){
         }
             else{
             pontosKitAlimentacao = 0;
+        }
+        if(pontosDoacaoSangue >= 51){
+            pontosDoacaoSangue = 2500 + ((pontosDoacaoSangue - 51) * 20)
+    }
+        else{
+            pontosDoacaoSangue * 20
         }
         }
 
@@ -104,11 +125,15 @@ function calcular(){
                 else{
                 pontosKitAlimentacao = 0;
             }
+            if(pontosDoacaoSangue >= 44){
+                pontosDoacaoSangue = 2500 + ((pontosDoacaoSangue - 44) * 20)
+        }
+            else{
+                pontosDoacaoSangue * 20
             }
-
-            else if(equipe == "Vermelha")
-            {
-        
+}
+            else if(equipe == "Vermelha"){
+            
            
         
                 if(kitAlimentacao >= 93 && kitSuplemento >= 47){
@@ -127,8 +152,13 @@ function calcular(){
                     else{
                     pontosKitAlimentacao = 0;
                 }
+                if(pontosDoacaoSangue >= 47){
+                    pontosDoacaoSangue = 2500 + ((pontosDoacaoSangue - 47) * 20)
+            }
+                else{
+                    pontosDoacaoSangue * 20
                 }
-
+            }
 
     let pacoteArroz = Number(document.getElementById("pacoteArroz").value);
     soma += (1 * pacoteArroz);
@@ -140,8 +170,11 @@ function calcular(){
     soma += (0.5 * pacoteMacarrao);
 
     let oleo = Number(document.getElementById("oleo").value);
-    soma = soma + (1 * oleo);    
+    soma = soma + (1 * oleo); 
+    
+    
     
     document.getElementById("soma").innerHTML = soma.toFixed(2);
+
 
 }

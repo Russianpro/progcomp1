@@ -57,10 +57,6 @@ h2{
 text-align: center;
 }
 
-
-
-}
-
 .campos{
     margin-bottom: 10px;
     border:  1px solid rgb(211, 211, 211);
@@ -69,7 +65,7 @@ text-align: center;
     background-color: #e6e5e5;
     box-shadow: 1px 1.5px 1px;
 }
-equipe{
+.equipe{
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: #344f8a;
@@ -118,4 +114,97 @@ table th{
 }
 .centralizado{
     text-align: center;
+}
+.metasPorEquipe{
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #b5cbf8;
+    width: 50%;
+}
+#colspanblue{
+    background-color: #344f8a;
+    color: aliceblue;
+}
+#tabela3{
+    border: solid 2px gray;
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.laranja{
+    background-color: orange;
+}
+.preta{
+    background-color: black;
+    color: white;
+}
+.roxa{
+    background-color: rgb(163, 28, 180);
+}
+.verde{
+    background-color: green;
+}
+.vermelha{
+    background-color: red;
+}
+#tabelaescala{
+    border-collapse: collapse;
+    width: 50%;
+    margin:auto; 
+}
+#tabela4{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.cinza{
+    background-color: rgb(175, 173, 173);
+}
+#alimentosSuplementos{
+    background-color: #c0cde7;
+    border: #b5cbf8;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 70%;
+}
+#sangue{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+#doacaoSangue{
+    background-color: #c0cde7;
+    margin: auto;
+    border-collapse: collapse;
+    border: white;
+}
+#tabela5{
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;   
+}
+#audiovisual{
+    background-color: rgb(189, 187, 187);
+    color: black;
+    height: 40px;
+    text-align: center;
+}
+#tabelaAudioVisual{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}   
+#pontuacao{
+   text-align: center;
+   font-size: large;
+} 
+#tabelaIntegracao{
+    height: 100px;
+    margin: auto;
+    width: 50%;
 }
